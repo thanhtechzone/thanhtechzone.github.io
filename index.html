@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Clinic Management App - Startup</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .glass { background: rgba(255, 255, 255, 0.6); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }
+    .badge { padding: 2px 10px; border-radius: 999px; font-size: 12px; border: 1px solid transparent; }
+  </style>
+  <meta name="description" content="Secure and efficient clinic management web app for startups in Vietnam" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🩺</text></svg>">
+</head>
+<body>
+  <header class="sticky top-0 z-10 bg-gradient-to-r from-teal-500 to-green-600 text-white shadow">
+    <div class="max-w-6xl mx-auto px-4 py-4">
+      <div class="flex items-center justify-between">
+        <div>
+          <h1 class="text-lg font-semibold tracking-wide">CLINIC MANAGEMENT APP — Bootstrapped Startup</h1>
+          <div class="text-white/90 text-sm mt-1">Clinic management solution with secure database for 100+ patients</div>
+        </div>
+        <a class="text-white/80 hover:text-white text-sm" href="mailto:your.email@example.com">Apply for Beta</a>
+      </div>
+    </div>
+  </header>
+  <div class="relative min-h-screen bg-gradient-to-br from-slate-100 to-teal-100">
+    <div class="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(56,189,248,0.25),transparent_40%),radial-gradient(circle_at_80%_0%,rgba(14,165,233,0.25),transparent_35%)]"></div>
+    <div class="relative max-w-6xl mx-auto px-4 py-6">
+      <!-- About section -->
+      <div class="glass rounded-xl shadow border border-white/40 p-6 mb-8 backdrop-saturate-150 animate-[fadeIn_0.4s_ease]">
+        <h2 class="text-xl font-bold text-teal-800 mb-4">About the Project</h2>
+        <p class="text-slate-700">A secure clinic management web app (powered by Neon Postgres serverless) for over 100 patients. Key features: real-time scheduling, secure medical records, email/SMS reminders. Bootstrapped in Vietnam, focused on healthcare tech to reduce operating costs.</p>
+        <span class="badge bg-teal-50/80 text-teal-700 border-teal-200 mt-4 inline-block">Early-Stage Startup</span>
+      </div>
+
+      <!-- Features grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-8" id="features">
+        <div class="glass rounded-xl shadow border border-white/40 overflow-hidden backdrop-saturate-150 animate-[fadeIn_0.4s_ease]">
+          <div class="px-4 py-3 bg-white/60 border-b border-white/50 font-semibold flex items-center justify-between">
+            <span>Appointment Management</span>
+            <span class="badge bg-green-50/80 text-green-700 border-green-200">Integrated</span>
+          </div>
+          <div class="px-4 py-4 text-sm text-slate-600">Schedule and send automated reminders via email/SMS for patients and doctors.</div>
+        </div>
+        <div class="glass rounded-xl shadow border border-white/40 overflow-hidden backdrop-saturate-150 animate-[fadeIn_0.4s_ease]">
+          <div class="px-4 py-3 bg-white/60 border-b border-white/50 font-semibold flex items-center justify-between">
+            <span>Medical Records</span>
+            <span class="badge bg-green-50/80 text-green-700 border-green-200">Secure</span>
+          </div>
+          <div class="px-4 py-4 text-sm text-slate-600">Secure storage, GDPR/HIPAA-like compliance, easy access for doctors.</div>
+        </div>
+        <div class="glass rounded-xl shadow border border-white/40 overflow-hidden backdrop-saturate-150 animate-[fadeIn_0.4s_ease]">
+          <div class="px-4 py-3 bg-white/60 border-b border-white/50 font-semibold flex items-center justify-between">
+            <span>Reports & Analytics</span>
+            <span class="badge bg-green-50/80 text-green-700 border-green-200">AI Powered</span>
+          </div>
+          <div class="px-4 py-4 text-sm text-slate-600">Revenue reports, patient data analysis with AI embeddings.</div>
+        </div>
+      </div>
+
+      <!-- Connect section -->
+      <div class="glass rounded-xl border border-white/40 p-4">
+        <div class="text-slate-700 font-semibold mb-2">Connect With Us</div>
+        <div class="flex flex-wrap items-center gap-3 text-sm">
+          <a class="inline-flex items-center gap-2 px-3 py-2 rounded-lg bg-white/70 hover:bg-white transition border border-white/60" href="https://www.facebook.com/phusanthanhy" target="_blank" rel="noopener noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="18" height="18" fill="#1877F2" aria-label="Facebook">
+              <path d="M13.651 35.471v-11.97H9.936V18h3.715v-2.37c0-6.127 2.772-8.964 8.784-8.964 1.138 0 3.103.223 3.91.446v4.983c-.425-.043-1.167-.065-2.081-.065-2.952 0-4.09 1.116-4.09 4.025V18h5.883l-1.008 5.5h-4.867v12.37a18.183 18.183 0 0 1-6.53-.399Z"></path>
+            </svg>
+            <span>Facebook</span>
+          </a>
+          <a class="inline-flex items-center gap-2 px-3 py-2 rounded-lg bg-white/70 hover:bg-white transition border border-white/60" href="https://www.tiktok.com/@phusanthanhy" target="_blank" rel="noopener noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 25 42" width="18" height="18" aria-label="TikTok">...</svg>
+            <span>TikTok</span>
+          </a>
+          <a class="inline-flex items-center gap-2 px-3 py-2 rounded-lg bg-white/70 hover:bg-white transition border border-white/60" href="https://zalo.me/2083712834905080546" target="_blank" rel="noopener noreferrer">
+            <img src="https://i0.wp.com/help.zalo.me/wp-content/uploads/2023/08/cropped-hinhZalo-2.png?w=177&ssl=1" alt="Zalo" width="18" height="18" style="border-radius:4px" />
+            <span>Zalo</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="text-slate-500 text-center py-6 text-sm">© <span id="year"></span> Clinic Management App - Startup Vietnam</footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
